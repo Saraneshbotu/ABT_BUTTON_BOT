@@ -5,13 +5,13 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "21740783")
-    API_HASH  = os.environ.get("API_HASH", "a5dc7fec8302615f5b441ec5e238cd46")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7770477241:AAFtQqKxAymyrv3a5Ilhb0mPnF9Wu4AhqhE") 
+    API_ID    = os.environ.get("API_ID", "26169469")
+    API_HASH  = os.environ.get("API_HASH", "1e2225f3d65b401d7d5bb921af531712")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8181201051:AAHJ9ueGhalAL_mW4m81bi2LL_myV-mwA-Y") 
    
     # database config
     DB_NAME = os.environ.get("DB_NAME","boyrokey00")     
-    DB_URL  = os.environ.get("DB_URL","mongodb+srv://boyrokey00:rajan123@cluster0.4fhuu.mongodb.net/")
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://Animebeasttamil:animebeast6374@cluster0.qzrwt.mongodb.net/")
  
     # other configs
     BOT_UPTIME  = time.time()
@@ -19,7 +19,7 @@ class Config(object):
     ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6299192020').split()]
 
     # channels logs
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "Anime_Warrior_Tamil") 
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "Anime_Beast_Tamil") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002149238052"))
     FILE_STORE_CHANNEL = int(os.environ.get("FILE_STORE_CHANNEL", "-1002134913785"))
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "File_store033_bot") # add file store bot username without @
